@@ -31,11 +31,11 @@ const FoodShow = ({ food }) => {
       ></div>
       <div className="food-content">{content}</div>
       <div className="actions">
-        <button className="delete" onClick={handleDeleteClick}>
-          Delete
-        </button>
         <button className="edit" onClick={handleEditClick}>
           Edit
+        </button>
+        <button className="delete" onClick={handleDeleteClick}>
+          Delete
         </button>
       </div>
     </div>
